@@ -13,7 +13,7 @@ class SearchBar extends Component {
     // state 는 this.setState 메서드를 통해서만 변경해야함
     // state 가 변경될 때마다 setState 메서드를 호출하고, 리렌더링함
     return (
-      <div>
+      <div className="search-bar">
         <input
           value={this.state.term}
           onChange={event => this.setState({ term: event.target.value })} />
