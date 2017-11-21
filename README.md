@@ -2,4 +2,9 @@
 
 udemy 강의
 
-`YOUTUBE_API_KEY` 라는 환경변수가 필요함.
+src/config.js 파일이 필요함
+```
+export default {
+  YOUTUBE_API_KEY: "YOUR_API_KEY"
+}
+```

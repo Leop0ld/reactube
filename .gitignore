@@ -6,5 +6,5 @@ npm-debug.log
 # IntelliJ
 .idea/
 
-# Environment Variables
-.env
+# for API_KEY
+src/config.js

@@ -6,7 +6,7 @@ class SearchBar extends Component {
     super(props);
 
     // Initialize state
-    this.state = { term: 'Starting Value' };
+    this.state = { term: '' };
   }
 
   render() {
