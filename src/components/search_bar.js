@@ -6,7 +6,7 @@ class SearchBar extends Component {
     super(props);
 
     // Initialize state
-    this.state = { term: '' };
+    this.state = { term: 'Starting Value' };
   }
 
   render() {
@@ -14,8 +14,9 @@ class SearchBar extends Component {
     // state 가 변경될 때마다 setState 메서드를 호출하고, 리렌더링함
     return (
       <div>
-        <input onChange={event => this.setState({ term: event.target.value })} />
-        Value of the input: {this.state.term}
+        <input
+          value={this.state.term}
+          onChange={event => this.setState({ term: event.target.value })} />
       </div>
     );
   }
